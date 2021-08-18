@@ -1,0 +1,89 @@
+/*ressete*/
+* {
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  
+  body,h1,h2,ul,li,p,a{
+      margin: 0px;
+      padding: 0px;
+      color:#292F33;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+
+  }
+
+  .flex-container{
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+      background-color:rgb(241, 109, 21);
+  }
+
+
+h1{
+    color:#fff;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.item {
+	text-align: center;
+	font-size: 1.5em;
+
+}
+.column {
+	flex-direction: column;
+}
+
+
+img{
+  margin: 0 auto;
+  border-radius: 30px;
+  margin: 30px 0 30px 30px;
+  align-items: center;
+
+
+}
+.center-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.sub-titulo{
+  font-size: 1.5em;
+  text-align: center;
+  color: forestgreen;
+  border: 3px solid rgb(241, 109, 21);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+h2{
+  color: forestgreen;
+  text-align: center;
+
+}
+
+.item-color{
+  background-color: gainsboro;
+}
+
